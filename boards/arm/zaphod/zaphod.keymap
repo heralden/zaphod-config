@@ -67,7 +67,7 @@
                 &trans     &trans     &trans      &trans          &trans       &trans           &trans         &trans      &trans     &trans
                 &trans     &trans     &trans      &trans          &trans       &kp LARW         &kp DARW       &kp UARW    &kp RARW   &trans
                 &trans     &trans     &trans      &trans          &trans       &trans           &kp HOME       &kp PG_DN   &kp PG_UP  &kp END
-                                                  &trans          &trans       &trans           &kp DEL
+                                                  &trans          &trans       &kp TAB          &kp DEL
             >;
         };
 

@@ -66,7 +66,7 @@
             bindings = <
                 &trans       &kp C_MUTE   &trans      &trans          &kp C_PLAY_PAUSE &kp C_PLAY_PAUSE &kp LBRC       &kp RBRC    &kp LBKT   &kp RBKT
                 &kp C_BRI_UP &kp C_VOL_UP &kp HOME    &kp PG_UP       &kp LC(LS(TAB))  &kp LARW         &kp DARW       &kp UARW    &kp RARW   &trans
-                &kp C_BRI_DN &kp C_VOL_DN &kp END     &kp PG_DOWN     &kp LC(TAB)      &kp HOME         &kp END        &kp LPAR    &kp RPAR   &trans
+                &kp C_BRI_DN &kp C_VOL_DN &kp END     &kp PG_DN       &kp LC(TAB)      &kp HOME         &kp END        &kp LPAR    &kp RPAR   &trans
                                                       &trans          &trans           &kp TAB          &kp DEL
             >;
         };
@@ -117,7 +117,7 @@
                 &trans       &trans     &trans      &trans     &trans            &trans          &trans         &trans      &kp INS    &kp SLCK
                 &hm LSHFT F1 &kp F2     &kp F3      &kp F4     &kp F5            &kp F6          &kp F7         &kp F8      &kp F9     &hm RSHFT F10
                 &kp F11      &kp F12    &trans      &trans     &trans            &trans          &trans         &trans      &kp PSCRN  &kp PAUSE_BREAK
-                                                    &none      &none             &trans          &trans
+                                                    &trans     &trans            &trans          &trans
             >;
         };
     };

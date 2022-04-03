@@ -36,6 +36,11 @@
             bindings = <&mo FUN_L>;
         };
 
+        caps_toggle {
+	    timeout-ms = <50>;
+            key-positions = <10 19>;
+            bindings = <&kp CAPS>;
+        };
     };
 
     behaviors {
@@ -88,7 +93,7 @@
                 &kp EXCL   &kp AT         &kp HASH       &kp DLLR        &kp PRCNT     &kp CARET       &kp AMPS        &kp STAR    &kp LPAR   &kp RPAR
                 &kp N1     &kp N2         &kp N3         &kp N4          &kp N5        &kp N6          &kp N7          &kp N8      &kp N9     &kp N0
                 &kp BSLH   &hm LALT TILDE &hm LGUI EQUAL &hm LCTRL MINUS &kp PLUS      &kp UNDER       &hm RCTRL SPACE &trans      &trans     &kp SLASH
-                                                         &kp CAPS        &trans        &trans          &trans
+                                                         &kp SPACE       &trans        &trans          &trans
             >;
         };
 

@@ -42,16 +42,16 @@
             bindings = <&kp CAPS>;
         };
 
-        osm_lshift {
+        escape {
 	    timeout-ms = <50>;
-            key-positions = <10 11>;
-            bindings = <&sk LSHFT>;
+            key-positions = <12 13>;
+            bindings = <&kp ESC>;
         };
 
-        osm_rshift {
+        enter {
 	    timeout-ms = <50>;
-            key-positions = <18 19>;
-            bindings = <&sk RSHFT>;
+            key-positions = <16 17>;
+            bindings = <&kp RET>;
         };
     };
 
@@ -64,6 +64,15 @@
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
+
+        hs: hold_tap_sticky {
+            compatible = "zmk,behavior-hold-tap";
+            label = "hold tap sticky";
+            #binding-cells = <2>;
+            tapping_term_ms = <200>;
+            flavor = "balanced";
+            bindings = <&kp>, <&sk>;
+        };
     };
 
     keymap {
@@ -72,10 +81,10 @@
         default_layer {
             label = "Base";
             bindings = <
-                &kp Q        &kp W      &kp E       &kp R            &kp T          &kp Y            &kp U          &kp I            &kp O        &kp P
-                &hm LSHFT A  &kp S      &kp D       &kp F            &kp G          &kp H            &kp J          &kp K            &kp L        &hm RSHFT SEMI
-                &kp Z        &hm LALT X &hm LGUI C  &hm LCTRL V      &kp B          &kp N            &hm RCTRL M    &hm LGUI COMMA   &hm LALT DOT &kp QUOT
-                                                    &hm LC(LGUI) ESC &lt NAV_L BKSP &lt NUM_L SPACE  &hm LCTRL RET
+                &kp Q        &kp W      &kp E       &kp R              &kp T          &kp Y            &kp U          &kp I            &kp O        &kp P
+                &hm LSHFT A  &kp S      &kp D       &kp F              &kp G          &kp H            &kp J          &kp K            &kp L        &hm RSHFT SEMI
+                &kp Z        &hm LALT X &hm LGUI C  &hm LCTRL V        &kp B          &kp N            &hm RCTRL M    &hm LGUI COMMA   &hm LALT DOT &kp QUOT
+                                                    &hs LC(LGUI) LSHFT &lt NAV_L BKSP &lt NUM_L SPACE  &hs LCTRL LSHFT
             >;
         };
 

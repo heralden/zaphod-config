@@ -65,13 +65,22 @@
             bindings = <&kp>, <&kp>;
         };
 
+        skq: sticky_key_quick_release {
+            compatible = "zmk,behavior-sticky-key";
+            label = "STICKY_KEY_QUICK_RELEASE";
+            #binding-cells = <1>;
+            bindings = <&kp>;
+            release-after-ms = <1000>;
+            quick-release;
+        };
+
         hs: hold_tap_sticky {
             compatible = "zmk,behavior-hold-tap";
             label = "hold tap sticky";
             #binding-cells = <2>;
             tapping_term_ms = <200>;
             flavor = "balanced";
-            bindings = <&kp>, <&sk>;
+            bindings = <&kp>, <&skq>;
         };
     };
 

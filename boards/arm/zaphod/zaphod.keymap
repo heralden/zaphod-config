@@ -37,7 +37,7 @@
         };
 
         caps {
-	    timeout-ms = <25>;
+	    timeout-ms = <10>;
             key-positions = <30 33>;
             bindings = <&kp CAPS>;
         };

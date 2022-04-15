@@ -27,7 +27,7 @@
         med_mo {
 	    timeout-ms = <50>;
             key-positions = <30 31>;
-            bindings = <&mo MED_L>;
+            bindings = <&mo OTH_L>;
         };
 
         fn_mo {

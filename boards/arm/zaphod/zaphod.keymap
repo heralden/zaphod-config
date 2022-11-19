@@ -162,7 +162,7 @@
             label = "Mod";
             bindings = <
                 &trans	   &trans     &trans      &trans          &trans       &trans           &trans         &trans       &trans       &trans
-                &skq LSHFT &skq LCTRL &skq LALT   &skq LGUI       &trans       &trans           &skq RGUI      &skq RALT    &skq RCTRL   &skq RSHFT
+                &sk  LSHFT &sk  LCTRL &sk  LALT   &sk  LGUI       &trans       &trans           &sk  RGUI      &sk  RALT    &sk  RCTRL   &sk  RSHFT
                 &trans     &trans     &trans      &trans          &trans       &trans           &trans         &trans       &trans       &trans
                                                   &sl OTH_L       &trans       &trans           &sl FUN_L
             >;

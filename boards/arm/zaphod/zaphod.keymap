@@ -164,7 +164,7 @@
                 &trans	   &trans     &trans      &trans          &trans       &trans           &trans         &trans       &trans       &trans
                 &skq LSHFT &skq LCTRL &skq LALT   &skq LGUI       &trans       &trans           &skq RGUI      &skq RALT    &skq RCTRL   &skq RSHFT
                 &trans     &trans     &trans      &trans          &trans       &trans           &trans         &trans       &trans       &trans
-                                                  &sl OTH_L       &trans       &trans           &trans
+                                                  &sl OTH_L       &trans       &trans           &sl FUN_L
             >;
         };
     };

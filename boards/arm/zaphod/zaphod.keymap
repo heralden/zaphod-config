@@ -54,6 +54,54 @@
             key-positions = <16 18>;
             bindings = <&kp RET>;
         };
+
+        lshft {
+            timeout-ms = <50>;
+            key-positions = <10 30>;
+            bindings = <&skq LSHFT>;
+        };
+
+        lctrl {
+            timeout-ms = <50>;
+            key-positions = <11 30>;
+            bindings = <&skq LCTRL>;
+        };
+
+        lalt {
+            timeout-ms = <50>;
+            key-positions = <12 30>;
+            bindings = <&skq LALT>;
+        };
+
+        lgui {
+            timeout-ms = <50>;
+            key-positions = <13 30>;
+            bindings = <&skq LGUI>;
+        };
+
+        rshft {
+            timeout-ms = <50>;
+            key-positions = <19 33>;
+            bindings = <&skq RSHFT>;
+        };
+
+        rctrl {
+            timeout-ms = <50>;
+            key-positions = <18 33>;
+            bindings = <&skq RCTRL>;
+        };
+
+        ralt {
+            timeout-ms = <50>;
+            key-positions = <17 33>;
+            bindings = <&skq RALT>;
+        };
+
+        rgui {
+            timeout-ms = <50>;
+            key-positions = <16 33>;
+            bindings = <&skq RGUI>;
+        };
     };
 
     behaviors {

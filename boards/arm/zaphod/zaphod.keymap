@@ -57,49 +57,49 @@
 
         lshft {
             timeout-ms = <50>;
-            key-positions = <10 30>;
+            key-positions = <10 31>;
             bindings = <&skq LSHFT>;
         };
 
         lctrl {
             timeout-ms = <50>;
-            key-positions = <11 30>;
+            key-positions = <11 31>;
             bindings = <&sk LCTRL>;
         };
 
         lalt {
             timeout-ms = <50>;
-            key-positions = <12 30>;
+            key-positions = <12 31>;
             bindings = <&sk LALT>;
         };
 
         lgui {
             timeout-ms = <50>;
-            key-positions = <13 30>;
+            key-positions = <13 31>;
             bindings = <&sk LGUI>;
         };
 
         rshft {
             timeout-ms = <50>;
-            key-positions = <19 33>;
+            key-positions = <19 32>;
             bindings = <&skq RSHFT>;
         };
 
         rctrl {
             timeout-ms = <50>;
-            key-positions = <18 33>;
+            key-positions = <18 32>;
             bindings = <&sk RCTRL>;
         };
 
         ralt {
             timeout-ms = <50>;
-            key-positions = <17 33>;
+            key-positions = <17 32>;
             bindings = <&sk RALT>;
         };
 
         rgui {
             timeout-ms = <50>;
-            key-positions = <16 33>;
+            key-positions = <16 32>;
             bindings = <&sk RGUI>;
         };
     };
